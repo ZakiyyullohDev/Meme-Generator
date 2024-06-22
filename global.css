@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    color: #000;
+    display: flex;
+    max-width: 400px;
+    margin-top: 70px;
+    max-height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(254,165,24)
+}
+
+.meme-text {
+    width: 330px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.memeImg {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.meme-author {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#memeGeneratorBtn {
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 10px;
+    color: rgb(254,165,24);
+    background-color: #000;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+    border: 2px solid rgb(254,165,24);
+}
+
+#memeGeneratorBtn:hover {
+    color: #000;
+    border: 2px solid #000;
+    background: transparent;
+}
